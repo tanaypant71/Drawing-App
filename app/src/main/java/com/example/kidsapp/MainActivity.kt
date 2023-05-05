@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
             if (view !== mImageButtonCurrentPaint){
                 val imageButton = view as ImageButton
                 val colorTag = imageButton.tag.toString()
-                drawngView?.setColor(colorTag)
+                drawingView?.setColor(colorTag)
 
                 //in this we will be selecting the desired color
                 imageButton.setImageDrawable(
