@@ -24,7 +24,7 @@
             android:id="@+id/im_bg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/f9yeqb2t"
+
             android:scaleType="centerCrop"/>
 
         <com.example.kidsapp.DrawingView
@@ -176,6 +176,14 @@
             android:layout_margin="5dp"
             android:id="@+id/redoIt"
             android:src="@drawable/icons8"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/save_btn"
+            android:src="@drawable/ic_save"
             android:scaleType="fitXY" />
 
     </LinearLayout>
