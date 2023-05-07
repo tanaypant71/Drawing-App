@@ -7,6 +7,26 @@
     tools:context=".MainActivity">
 
 
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:padding="1dp"
+        android:background=""
+        app:layout_constraintBottom_toTopOf="@id/paint_colors"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+
     <com.example.kidsapp.DrawingView
         android:id="@+id/drawing_view"
         android:layout_width="0dp"
